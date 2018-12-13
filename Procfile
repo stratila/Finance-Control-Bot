@@ -1,1 +1,1 @@
-web: gunicorn financeBot:app
+web: gunicorn financeBot:server

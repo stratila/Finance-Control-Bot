@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51c85a6c-9d10-466f-977f-f36850dd23e2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="51c85a6c-9d10-466f-977f-f36850dd23e2" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/financeBot.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="397">
-              <caret line="751" column="57" selection-start-line="751" selection-start-column="57" selection-end-line="751" selection-end-column="57" />
+              <caret line="751" column="25" lean-forward="true" selection-start-line="751" selection-start-column="25" selection-end-line="751" selection-end-column="57" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -211,7 +209,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32972136" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50075644" side_tool="true" weight="0.32352942" />
@@ -626,7 +625,7 @@
     <entry file="file://$PROJECT_DIR$/financeBot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
-          <caret line="751" column="57" selection-start-line="751" selection-start-column="57" selection-end-line="751" selection-end-column="57" />
+          <caret line="751" column="25" lean-forward="true" selection-start-line="751" selection-start-column="25" selection-end-line="751" selection-end-column="57" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
