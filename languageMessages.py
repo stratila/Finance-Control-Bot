@@ -135,4 +135,7 @@ erase_text = {'en': '🔙 Erase', 'ru': '🔙 Стереть'}
 period_final = {'en': 'Your costs from {date1} to {date2}',
                 'ru': 'Ваши траты от {date1} до {date2}'}
 
+clear_hist_succ = {'en': 'Your history successfully removed ',
+                   'ru': 'Ваша история удалена.'}
+
 

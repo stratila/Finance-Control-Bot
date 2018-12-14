@@ -9,7 +9,7 @@ import json
 import sys
 import os
 
-from flask import Flask, request
+from flask import Flask, request, send_file
 
 server = Flask(__name__)
 
@@ -739,6 +739,25 @@ def handle_period_final(query):
         task = bot.send_message(chat_id=uid,text=s)
         task.wait()
 
+
+@bot.message_handler(commands=['clear'])
+def clear_hist(message):
+    for curr in wallet_types:
+        table = get_costs_table(message.chat.id,curr)
+        conn.execute(table.delete())
+    task = bot.send_message(chat_id=message.chat.id,
+                            text=languageMessages.clear_hist_succ[get_lang_code(message.chat.id)])
+    task.wait()
+
+
+
+@server.route('/getdbfile',methods=['GET'])
+def return_files_tut():
+    try:
+        return send_file(os.getcwd()+'/botDataBase.db',
+                         attachment_filename='botDataBase.db')
+    except Exception as e:
+        return str(e)
 
 @server.route('/'+TOKEN, methods=['POST'])
 def getMessage():
